@@ -1,4 +1,13 @@
-BIPs that are implemented by pbtc compared to other implementations
+# BIPs implemented by various different Bitcoin full-node implementations.
+
+## Nodes
+- pbtc (Rust)
+- core (C++)
+- unlimited (C++)
+- bcoin (NodeJS)
+- btcsuite (Go)
+
+## Key 
 
 - :heavy_multiplication_x: not implemented
 
@@ -8,7 +17,6 @@ BIPs that are implemented by pbtc compared to other implementations
 
 - :clock3: work in progress
 
-  
 
 | BIP                | Title                                    |           pbtc           |           core           |        unlimited         |       bcoin        |         btcsuite         |
 | ------------------ | ---------------------------------------- | :----------------------: | :----------------------: | :----------------------: | :----------------: | :----------------------: |
@@ -42,12 +50,12 @@ BIPs that are implemented by pbtc compared to other implementations
 | [BIP 125][BIP125]  | Opt-in Full Replace-by-Fee Signaling     |    :heavy_check_mark:    |    :heavy_check_mark:    |    :heavy_check_mark:    | :heavy_check_mark: | :heavy_multiplication_x: |
 | [BIP 130][BIP130]  | sendheaders message                      |        :question:        |    :heavy_check_mark:    |    :heavy_check_mark:    | :heavy_check_mark: |    :heavy_check_mark:    |
 | [BIP 133][BIP133]  | feefilter message                        |        :question:        |    :heavy_check_mark:    |        :question:        | :heavy_check_mark: |    :heavy_check_mark:    |
-| [BIP 141][BIP141]  | Segregated Witness (Consensus layer)     | :heavy_multiplication_x: |    :heavy_check_mark:    |        :question:        | :heavy_check_mark: |         :clock3:         |
-| [BIP 143][BIP143]  | Transaction Signature Verification for Version 0 Witness Program | :heavy_multiplication_x: |    :heavy_check_mark:    |        :question:        | :heavy_check_mark: |         :clock3:         |
-| [BIP 144][BIP144]  | Segregated Witness (Peer Services)       | :heavy_multiplication_x: |    :heavy_check_mark:    |        :question:        | :heavy_check_mark: |         :clock3:         |
-| [BIP 145][BIP145]  | getblocktemplate Updates for Segregated Witness | :heavy_multiplication_x: |    :heavy_check_mark:    |        :question:        | :heavy_check_mark: |         :clock3:         |
+| [BIP 141][BIP141]  | Segregated Witness (Consensus layer)     | :heavy_multiplication_x: |    :heavy_check_mark:    | :heavy_multiplication_x: | :heavy_check_mark: |         :clock3:         |
+| [BIP 143][BIP143]  | Transaction Signature Verification for Version 0 Witness Program | :heavy_multiplication_x: |    :heavy_check_mark:    | :heavy_multiplication_x: | :heavy_check_mark: |         :clock3:         |
+| [BIP 144][BIP144]  | Segregated Witness (Peer Services)       | :heavy_multiplication_x: |    :heavy_check_mark:    | :heavy_multiplication_x: | :heavy_check_mark: |         :clock3:         |
+| [BIP 145][BIP145]  | getblocktemplate Updates for Segregated Witness | :heavy_multiplication_x: |    :heavy_check_mark:    | :heavy_multiplication_x: | :heavy_check_mark: |         :clock3:         |
 | [BIP 147][BIP147]  | Dealing with dummy stack element malleability | :heavy_multiplication_x: |    :heavy_check_mark:    |        :question:        | :heavy_check_mark: |         :clock3:         |
-| [BIP 150][BIP150]  | Peer Authentication                      |                          |                          |                          | :heavy_check_mark: | :heavy_multiplication_x: |
+| [BIP 150][BIP150]  | Peer Authentication                      |        :question:        |        :question:        |        :question:        | :heavy_check_mark: | :heavy_multiplication_x: |
 | [BIP 151][BIP151]  | Peer-to-Peer Communication Encryption    | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_multiplication_x: | :heavy_check_mark: | :heavy_multiplication_x: |
 | [BIP 152][BIP152]  | Compact Block Relay                      | :heavy_multiplication_x: |    :heavy_check_mark:    |        :question:        | :heavy_check_mark: | :heavy_multiplication_x: |
 | [BUIP001][BUIP001] | Extensions to the Bitcoin Client         |                          |                          |    :heavy_check_mark:    |                    |                          |
